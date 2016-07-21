@@ -32,3 +32,10 @@ h3 {
 p {
   font-size: 55px;
 }
+
+.refresh-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 7px;
+  font-size: 15px;
+}
