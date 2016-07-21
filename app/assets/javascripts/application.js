@@ -17,7 +17,7 @@
 
 $(function () {
 
-  $('.refresh.btn').on('click', function(e){
+  $('.refresh-btn').on('click', function(e){
 
     console.log('clicked')
   })
