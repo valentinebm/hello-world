@@ -14,11 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(function () {
-
-  $(.'refresh.btn').on('click', function(e){
-
-    console.log('clicked')
-  })
-
-  })
