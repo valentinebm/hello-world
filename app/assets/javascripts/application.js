@@ -16,7 +16,7 @@
 //= require_tree .
 
 $(function () {
-
+  console.log("hello")
   $('.refresh-btn').on('click', function(e){
 
     console.log('clicked')
