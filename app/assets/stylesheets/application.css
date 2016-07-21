@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: rgb(40, 44, 52);
+  color: rgb(78, 182, 94);
+  font-family: monospace;
+}
