@@ -3,7 +3,8 @@ var Another = React.createClass({
   render: function(){
     return (
       <div>
-      <h1> Another component</h1>
+      <h1>{this.props.title}</h1>
+      {this.props.children}
       </div>
     );
   }
