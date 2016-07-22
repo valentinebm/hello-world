@@ -26,11 +26,16 @@ h1 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 17px;
 }
 
-p {
+.time {
   font-size: 85px;
+  border: solid;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .refresh-btn {

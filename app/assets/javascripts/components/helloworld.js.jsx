@@ -1,7 +1,9 @@
-var helloworld = React.createClass({
+var Helloworld = React.createClass({
   render: function(){
     return (
-      <div>inside component react</div>
+      <div>inside component react
+        <Another/>
+      </div>
     );
   }
 });
