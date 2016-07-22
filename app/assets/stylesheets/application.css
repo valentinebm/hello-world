@@ -110,18 +110,34 @@ h3 {
 	transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
 	color: #ECEFF1;
 	background-color: rgb(100, 88, 100);
-	-webkit-animation: anim-moema-1 0.3s forwards;
-	animation: anim-moema-1 0.3s forwards;
+	/*-webkit-animation: anim-moema-1 0.3s forwards;
+	animation: anim-moema-1 0.3s forwards;*/
 }
-.button--moema.button--inverted:hover {
+
+/*.button--moema.button--inverted:hover {
 	color: #ECEFF1;
 	background-color: #7986cb;
-}
-.button--moema:hover::before {
+}*/
+/*.button--moema:hover::before {
 	-webkit-animation: anim-moema-2 0.3s 0.3s forwards;
 	animation: anim-moema-2 0.3s 0.3s forwards;
+}*/
+/*@-webkit-keyframes anim-moema-1 {
+	60% {*/
+		/*-webkit-transform: scale3d(0.8, 0.8, 1);*/
+    /*below is the animation to increase size of button*/
+		/*transform: scale3d(2, 2, 0);
+	}*/
+	/*85% {
+		-webkit-transform: scale3d(1.1, 1.1, 1);
+		transform: scale3d(1.1, 1.1, 1);
+	}*/
+	/*100% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}*/
 }
-@-webkit-keyframes anim-moema-1 {
+/*@keyframes anim-moema-1 {
 	60% {
 		-webkit-transform: scale3d(0.8, 0.8, 1);
 		transform: scale3d(0.8, 0.8, 1);
@@ -134,32 +150,20 @@ h3 {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-}
-@keyframes anim-moema-1 {
-	60% {
-		-webkit-transform: scale3d(0.8, 0.8, 1);
-		transform: scale3d(0.8, 0.8, 1);
-	}
-	85% {
-		-webkit-transform: scale3d(1.1, 1.1, 1);
-		transform: scale3d(1.1, 1.1, 1);
-	}
-	100% {
-		-webkit-transform: scale3d(1, 1, 1);
-		transform: scale3d(1, 1, 1);
-	}
-}
-@-webkit-keyframes anim-moema-2 {
+}*/
+
+/*next webkit is the animation for the 'halo'*/
+/*@-webkit-keyframes anim-moema-2 {
 	to {
 		opacity: 0;
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-}
-@keyframes anim-moema-2 {
+}*/
+/*@keyframes anim-moema-2 {
 	to {
 		opacity: 0;
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 	}
-}
+}*/
